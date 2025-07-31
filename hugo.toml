@@ -9,14 +9,14 @@ languageCode = "vi"
 languageName = "Tiếng Việt"
 hasCJKLanguage = false
 
-[pagination]
-  pagerSize = 12
-
 enableGitInfo = true
 
 enableEmoji = true
 
-[author]
+[pagination]
+  pagerSize = 12
+
+[params.author]
   name = "Âm Dương Tiên Sinh"
   email = "thanhnc.se@gmail.com"
   link = "/me"
