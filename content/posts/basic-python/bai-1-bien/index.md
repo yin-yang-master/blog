@@ -1,5 +1,5 @@
 +++
-title = 'Bài 1: Biến'
+title = "Bài 1: Biến"
 date = 2025-07-25T13:48:36+07:00
 draft = false
 tags = ["Cơ bản"]
@@ -20,7 +20,7 @@ print("Hello Pythonista!")
 
 Khi chạy chương trình, ta sẽ thấy nội dung sau được in ra màn hình:
 
-```bash
+```
 Hello Pythonista!
 ```
 
@@ -39,7 +39,7 @@ print(message)
 
 Chạy chương trình mới để xem điều gì xảy ra, ta có thể thấy dòng chữ `Hello Pythonista!` vẫn được in ra màn hình như ban đầu.
 
-```bash
+```
 Hello Pythonista!
 ```
 
@@ -58,7 +58,7 @@ print(message)
 
 Bây giờ, khi chạy chương trình, ta sẽ thấy 2 dòng chữ được in ra màn hình:
 
-```bash
+```
 Hello Pythonista!
 Hoàng Sa, Trường Sa là của Việt Nam!
 ```
