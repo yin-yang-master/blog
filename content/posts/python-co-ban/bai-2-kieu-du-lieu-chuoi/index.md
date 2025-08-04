@@ -3,7 +3,7 @@ title = "Bài 2: Kiểu dữ liệu chuỗi"
 date = 2025-07-26T15:48:36+07:00
 draft = false
 tags = ["Cơ bản"]
-categories = ["Python cơ bản cho người mới bắt đầu"]
+categories = ["Nhập môn lập trình với Python"]
 +++
 
 Cùng tìm hiểu về cách sử dụng kiểu dữ liệu chuỗi trong Python

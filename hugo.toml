@@ -2,7 +2,7 @@ baseURL = "https://example.org/"
 
 theme = "LoveIt"
 
-title = "Âm Dương Tiên Sinh"
+title = "Khoa học Máy tính"
 
 defaultContentLanguage = "vi"
 languageCode = "vi"
@@ -24,6 +24,14 @@ enableEmoji = true
 [menu]
   [[menu.main]]
     weight = 1
+    identifier = "roadmap"
+    pre = ""
+    post = ""
+    name = "Lộ trình"
+    url = "/roadmap"
+    title = ""
+  [[menu.main]]
+    weight = 2
     identifier = "posts"
     pre = ""
     post = ""
@@ -31,7 +39,7 @@ enableEmoji = true
     url = "/posts/"
     title = ""
   [[menu.main]]
-    weight = 2
+    weight = 3
     identifier = "tags"
     pre = ""
     post = ""
@@ -39,7 +47,7 @@ enableEmoji = true
     url = "/tags/"
     title = ""
   [[menu.main]]
-    weight = 3
+    weight = 4
     identifier = "categories"
     pre = ""
     post = ""
@@ -53,7 +61,7 @@ enableEmoji = true
   fingerprint = ""
   dateFormat = "02/01/2006"
   title = "Blog Âm Dương Tiên Sinh"
-  description = "Cùng học lập trình với Âm Dương Tiên Sinh"
+  description = "Cùng học Khoa học máy tính với Âm Dương Tiên Sinh"
   images = ["/logo.png"]
 
   [params.header]
@@ -61,8 +69,8 @@ enableEmoji = true
     mobileMode = "auto"
     [params.header.title]
       logo = ""
-      name = "Âm Dương Tiên Sinh"
-      pre = "<i class='fa-solid fa-yin-yang' aria-hidden='true'></i>"
+      name = "Khoa học máy tính"
+      pre = "<i class='fa-solid fa-code' aria-hidden='true'></i>"
       post = ""
       typeit = true
 
@@ -152,7 +160,7 @@ enableEmoji = true
       #  title shown in home page (HTML format is supported)
       title = ""
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "Cùng học lập trình với Âm Dương Tiên Sinh"
+      subtitle = "Cùng học Khoa học máy tính với Âm Dương Tiên Sinh"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
@@ -464,7 +472,7 @@ enableEmoji = true
   priority = 0.5
 
 [Permalinks]
-  posts = ":contentbasename"
+  posts = ":sections/:contentbasename"
 
 # Privacy config
 [privacy]
